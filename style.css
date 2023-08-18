@@ -49,6 +49,7 @@ header h1 {
   outline: none;
 }
 
+
 .form-input-filter {
   margin-top: 20px;
   width: 100%;
@@ -56,9 +57,14 @@ header h1 {
   margin-bottom: 20px;
   padding: 10px;
   border: none;
-  border-bottom: 1px solid #ccc;
+  color: #83CA3D;
+  border-bottom: 1px solid #83CA3D;
   background: transparent;
   outline: none;
+}
+
+.form-input-filter::placeholder {
+  color: #EA5D6D;
 }
 
 /* Buttons */
